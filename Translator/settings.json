@@ -1,0 +1,9 @@
+{
+    "workbench.colorTheme": "Default High Contrast",
+    "[python]": {
+        "editor.formatOnType": true
+    },
+    "liveServer.settings.CustomBrowser": "chrome",
+    "liveServer.settings.host": "localhost",
+    "liveServer.settings.port": 5501
+}

@@ -1,0 +1,343 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>find flower</title>
+    <link rel="stylesheet" href="C:\Users\thama\OneDrive\Desktop\flower for sita\flower.css">
+   <link rel="stylesheet" href="flower.css">
+   
+   <style>
+   .popup {
+  display: none;
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 700px;
+  height: 500px;
+  background-color: #d1914c;
+  padding: 300px;
+  border: 1px solid #ccc;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+    border-radius: 22px;
+  }
+
+.popup.show {
+  display: block;
+}
+ h2{
+  color: #361e05;
+  font-size: 30px;
+
+ }
+ p{
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+ font-size: large;
+}
+.button1{
+  border-radius: 5px;
+  padding-left: 15px;
+  padding-right: 15px;
+  background-color: #d1914c;
+  border: none;
+}
+.button1:hover{
+  background-color: rgb(247, 214, 170);
+}
+.hide{
+  background-color: #895d31;
+ color: antiquewhite;
+ border: none;
+ border-radius: 3px;
+}
+.footer{
+  background-color: #c2874d;
+  height: 300px;
+  padding-top: 30px;
+  font-weight:lighter;
+  font-size: x-large;
+  text-align: center;
+}
+     
+  </style>
+  <script>
+    
+
+    function showPopup(popupId) {
+  const popup = document.getElementById(popupId);
+  popup.classList.add('show');
+}
+
+function hidePopup(popupId) {
+  const popup = document.getElementById(popupId);
+  popup.classList.remove('show');
+}
+
+
+
+  </script>
+  
+ 
+  
+    
+
+</head>
+<body>
+    <div class="inside">
+    <header>
+        <div class="pages">
+            <h2>Flower Gallery</h2>
+        <nav>
+            <ul>
+                <button class="button"><a class="a1" class="a1" href="C:\Users\thama\OneDrive\Desktop\flower for sita\flower.html">Home</a></button>
+                <button class="button"><a class="a1" href="C:\Users\thama\OneDrive\Desktop\flower for sita\pages\find.html">flower Gallery</a></button>
+                <button class="button"><a class="a1" href="C:\Users\thama\OneDrive\Desktop\flower for sita\upload.html">upload</a></button>
+            </ul>
+        </nav>
+    </div>
+   
+    <div class="about">
+        <img class="photo"src="C:\Users\thama\OneDrive\Desktop\flower for sita\flowerpictures\Starr_010419-0035_Thunbergia_alata.jpg">
+        <h3>Thunbergia (Black-Eyed Susan)</h3>
+        
+        <button class="button1" onclick="showPopup('popup1')">Open Popup</button>
+
+        <div id="popup1" class="popup">
+          <h2>Thunbergia</h2>
+          <p >Thunbergia alata, commonly called black-eyed Susan vine, is a herbaceous perennial climbing plant species in the family Acanthaceae. It is native to Eastern Africa, and has been naturalized in other parts of the world. It is grown as an ornamental plant in gardens and in hanging baskets.</p>
+          <button class="hide" onclick="hidePopup('popup1')">Close</button>
+        </div>
+        <p></p>
+    </div>
+    
+    <div class="about">
+        <img class="photo"src="C:\Users\thama\OneDrive\Desktop\flower for sita\flowerpictures\Ageratum_houstonianum_'Blue_Mink'_(Compositae)_flowers.JPG">
+        <h3>Ageratum houstonianum. (Floss Flower)</h3> 
+
+        
+        <button class="button1" onclick="showPopup('popup2')">Open Popup</button>
+        <div id="popup2" class="popup">
+          <h2>Ageratum houstonianum</h2>
+          <p>Ageratum houstonianum, commonly known as flossflower, bluemink, blueweed, pussy foot or Mexican paintbrush, is a cool-season annual plant often grown as bedding in gardens..</p>
+          <button class="hide"onclick="hidePopup('popup2')">Close</button>
+        </div>
+      
+
+    <p></p>
+    </div>
+
+    <div class="about" id="h1">
+        <img class="photo"src="C:\Users\thama\OneDrive\Desktop\flower for sita\flowerpictures\Alchemilla_alpina0.jpg">
+        <h3>Alchemilla. (Lady's Mantle).</h3>
+        <button class="button1" onclick="showPopup('popup3')">Open Popup</button>
+        <div id="popup3" class="popup">
+          <h2>Alchemilla.</h2>
+          <p>Alchemilla is a genus of herbaceous perennial plants in the family Rosaceae, with the common name lady's mantle applied generically as well as specifically to Alchemilla mollis when referred to as a garden plant..</p>
+          <button class="hide" onclick="hidePopup('popup3')">Close</button>
+        </div>
+        </div>
+    <p></p>
+    
+    <div class="about" id="a2">
+        <img class="photo"src="C:\Users\thama\OneDrive\Desktop\flower for sita\flowerpictures\Astilbes_in_the_Botanical_Garden_01.JPG">
+        <h3>Astilbe. (False Goat's Beard, False Spirea).</h3>
+        <button class="button1" onclick="showPopup('popup4')">Open Popup</button>
+        <div id="popup4" class="popup">
+          <h2>Astilbe</h2>
+          <p>Astilbe is a genus of 18 species of rhizomatous flowering plants within the family Saxifragaceae, native to mountain ravines and woodlands in Asia and North America. Some species are known by the common names false goat's beard and false spirea..</p>
+          <button class="hide" onclick="hidePopup('popup4')">Close</button>
+        </div>
+    <p></p>
+    </div>
+    <div class="about" id="a3">
+        <img class="photo"src="C:\Users\thama\OneDrive\Desktop\flower for sita\flowerpictures\Bachelor's_button,_Basket_flower,_Boutonniere_flower,_Cornflower_-_3.jpg">
+        <h3>Bachelor's Button. (Cornflower).</h3>
+        <button class="button1" onclick="showPopup('popup5')">Open Popup</button>
+        <div id="popup5" class="popup">
+          <h2>Bachelor's Button</h2>
+          <p>Centaurea cyanus, commonly known as cornflower or bachelor's button, is an annual flowering plant in the family Asteraceae native to Europe. In the past, it often grew as a weed in cornfields, hence its name.</p>
+          <button class="hide" onclick="hidePopup('popup5')">Close</button>
+        </div>
+        <p></p>
+    </div>
+    <div class="about">
+        <img class="photo"src="C:\Users\thama\OneDrive\Desktop\flower for sita\flowerpictures\Buttercup_(Ranunculus)_1.JPG">
+        <h3>Buttercup. (Ranunculus)</h3>
+        <button class="button1" onclick="showPopup('popup6')">Open Popup</button>
+        <div id="popup6" class="popup">
+          <h2>Buttercup</h2>
+          <p>Ranunculus bulbosus, commonly known as bulbous buttercup or St. Anthony's turnip, is a perennial flowering plant in the buttercup family Ranunculaceae. It has bright yellow flowers, and deeply divided, three-lobed long-petioled basal leaves.</p>
+          <button class="hide" onclick="hidePopup('popup6')">Close</button>
+        </div>
+        
+      
+        <p></p>
+    </div>
+    <div class="about">
+        <img class="photo"src="C:\Users\thama\OneDrive\Desktop\flower for sita\flowerpictures\Flowers_247.jpg">
+        <h3>Shasta Daisy. (Leucanthemum). </h3>
+        <button class="button1" onclick="showPopup('popup7')">Open Popup</button>
+        <div id="popup7" class="popup">
+          <h2>Shasta Daisy</h2>
+          <p>Leucanthemum  superbum, the Shasta daisy, is a commonly grown flowering herbaceous perennial plant with the classic daisy appearance of white petals around a yellow disc, similar to the oxeye daisy Leucanthemum vulgare Lam, but larger..</p>
+          <button class="hide"onclick="hidePopup('popup7')">Close</button>
+        </div>
+        
+        
+          
+   
+        <p></p>
+    </div>
+    <div class="about">
+        <img class="photo"src="C:\Users\thama\OneDrive\Desktop\flower for sita\flowerpictures\Iceland_Plants_4911.JPG">
+        <h3>Shasta Daisy. (Leucanthemum). </h3>
+        <button class="button1" onclick="showPopup('popup8')">Open Popup</button>
+        <div id="popup8" class="popup">
+          <h2>Shasta Daisy. (Leucanthemum).</h2>
+          <p>Leucanthemum  superbum, the Shasta daisy, is a commonly grown flowering herbaceous perennial plant with the classic daisy appearance of white petals around a yellow disc, similar to the oxeye daisy Leucanthemum vulgare Lam, but larger..</p>
+          <button class="hide" onclick="hidePopup('popup8')">Close</button>
+        </div>
+        
+       
+        <p></p>
+    </div>
+    <div class="about">
+        <img class="photo"src="C:\Users\thama\OneDrive\Desktop\flower for sita\flowerpictures\Ipomoea_leptophylla_1209058_4x3.jpg">
+        <h3>Bush Morning Glory.(Ipomea).</h3>
+        <button class="button1" onclick="showPopup('popup9')">Open Popup</button>
+        <div id="popup9" class="popup">
+          <h2>Bush Morning Glory</h2>
+          <p>Astilbe is a genus of 18 species of rhizomatous flowering plants within the family Saxifragaceae, native to mountain ravines and woodlands in Asia and North America. Some species are known by the common names false goat's beard and false spirea.</p>
+          <button class="hide" onclick="hidePopup('popup9')">Close</button>
+        </div>
+       
+        <p></p>
+    </div>
+    <div class="about">
+        <img class="photo"src="C:\Users\thama\OneDrive\Desktop\flower for sita\flowerpictures\Leucojum_aestivum1.jpg">
+        <h3>Leucojum aestivum</h3>
+        <button class="button1" onclick="showPopup('popup10')">Open Popup</button>
+        <div id="popup10" class="popup">
+          <h2>Leucojum aestivum</h2>
+          <p>Leucojum aestivum, commonly called summer snowflake or Loddon lily, is a plant species widely cultivated as an ornamental. It is native to most of Europe from Spain and Ireland to Ukraine, with the exception of Scandinavia, Russia, Belarus and the Baltic countries..</p>
+          <button class="hide" onclick="hidePopup('popup10')">Close</button>
+        </div>
+
+        <p></p>
+    </div>
+    <div class="about">
+        <img class="photo"src="C:\Users\thama\OneDrive\Desktop\flower for sita\flowerpictures\Mauve_Flowers_(4541324498).jpg">
+        <h3>Aubreita deltoidea</h3>
+        <button class="button1" onclick="showPopup('popup11')">Open Popup</button>
+        <div id="popup11" class="popup">
+          <h2>Aubreita deltoidea</h2>
+          <p>Aubrieta deltoidea is a species of flowering plant in the mustard family. Common names include lilacbush, purple rock cress and rainbow rock cress. It should be grown in zones 4a to 9b. .</p>
+          
+          <button class="hide" onclick="hidePopup('popup11')">Close</button>
+        </div>
+        
+       
+        <p></p>
+    </div>
+    <div class="about">
+        <img class="photo"src="C:\Users\thama\OneDrive\Desktop\flower for sita\flowerpictures\Mexican_Sunflower_Tithonia_rotundifolia_'Torch'_Side.jpg">
+       
+        <h3>Mexican Sunflower</h3>
+        <button class="button1"onclick="showPopup('popup12')">Open Popup</button>
+        <div  id="popup12" class="popup">
+          <h2>Mexican Sunflower</h2>
+          <p>Tithonia is a genus of flowering plants in the tribe Heliantheae within the family Asteraceae. Tithonia has a center of distribution in Mexico but with one species extending into the Southwestern United States and several native to Central America..</p>
+          <button class="hide" onclick="hidePopup('popup12')">Close</button>
+        </div>
+       
+    </div>
+    <div class="about">
+        <img class="photo"src="C:\Users\thama\OneDrive\Desktop\flower for sita\flowerpictures\MmeGregoirestaechelin.jpg">
+        <h3>Mme. Gregoire Staechelin</h3>
+        <button class="button1" onclick="showPopup('popup13')">Open Popup</button>
+        <div id="popup13" class="popup">
+          <h2>Mme. Gregoire Staechelin</h2>
+          <p>Scientific name: Rosa 'Mme Grégoire Staechelin'
+            Rank: Cultivar.</p>
+          <button class="hide" onclick="hidePopup('popup13')">Close</button>
+        </div>
+      
+        <p></p>
+    </div>
+    <div class="about">
+        <img class="photo"src="C:\Users\thama\OneDrive\Desktop\flower for sita\flowerpictures\Purple_Milkweed_Asclepias_purpurascens_Ant.jpg">
+        <h3>Purple Milkweed Asclepias purpurascens Ant</h3>
+        <button class="button1"onclick="showPopup('popup14')">Open Popup</button>
+        <div id="popup14" class="popup">
+          <h2>Purple Milkweed Asclepias </h2>
+          <p>Asclepias purpurascens, the purple milkweed, is a herbaceous plant species. It is in the genus Asclepias, making it a type of milkweed. It is native to the Eastern, Southern and Midwestern United States similar to the range of the common milkweed..</p>
+          <button class="hide" onclick="hidePopup('popup14')">Close</button>
+        </div>
+       
+        <p></p>
+    </div>
+    <div class="about">
+        <img class="photo"src="C:\Users\thama\OneDrive\Desktop\flower for sita\flowerpictures\Rosa_cultivar_Bonica_82_2.JPG">
+        <h3>Bonica Rose</h3>
+        <button class="button1"onclick="showPopup('popup15')">Open Popup</button>
+        <div id="popup15" class="popup">
+          <h2>Bonica Rose</h2>
+          <p>Asclepias purpurascens, the purple milkweed, is a herbaceous plant species. It is in the genus Asclepias, making it a type of milkweed. It is native to the Eastern, Southern and Midwestern United States similar to the range of the common milkweed..</p>
+          <button class="hide" onclick="hidePopup('popup15')">Close</button>
+        </div>
+      
+        <p></p>
+    </div>
+    <div class="about">
+        <img class="photo"src="C:\Users\thama\OneDrive\Desktop\flower for sita\flowerpictures\Starr_010419-0035_Thunbergia_alata.jpg">
+        <h3>Thunbergia (Black-Eyed Susan)</h3>
+        <button class="button1"onclick="showPopup('popup16')">Open Popup</button>
+        <div id="popup16" class="popup">
+          <h2>Thunbergia </h2>
+          <p>
+            Thunbergia is a genus of flowering plants in the family Acanthaceae, native to tropical regions of Africa, Madagascar and southern Asia. Thunbergia species are vigorous annual or perennial vines and shrubs growing to 2–8 m tall. The generic name honours the Swedish naturalist Carl Peter Thunberg..</p>
+          
+          <button class="hide" onclick="hidePopup('popup16')">Close</button>
+        </div>
+     
+        <p></p>
+    </div>
+    <div class="about">
+        <img class="photo"src="C:\Users\thama\OneDrive\Desktop\flower for sita\flowerpictures\x800px-Dichondra_Silver_Falls.jpg.pagespeed.ic.Dp4v9iBfPF.webp">
+        <h3>Dichondra</h3>
+        <button class="button1"onclick="showPopup('popup17')">Open Popup</button>
+        <div id="popup17" class="popup">
+          <h2>Dichondra</h2>
+          <p>Dichondra is a small genus of flowering plants in the morning glory family, Convolvulaceae. They are prostrate, perennial, herbaceous plants, with creeping stems which take root readily at the leaf nodes. The flowers are white, greenish or yellowish, 2to3 mm diameter..</p>
+          <button class="hide" onclick="hidePopup('popup17')">Close</button>
+        </div>
+       
+        <p></p>
+    
+    </div>
+    <div class="about">
+        <img class="photo"src="C:\Users\thama\OneDrive\Desktop\flower for sita\flowerpictures\Day_Lily_at_the_church.jpeg">
+        <h3>Day Lily</h3>
+        <button class="button1"onclick="showPopup('popup18')">Open Popup</button>
+        <div id="popup18" class="popup">
+          <h2>Day Lily </h2>
+          <p>A daylily or day lily is a flowering plant in the genus Hemerocallis, a member of the family Asphodelaceae, subfamily Hemerocallidoideae. Despite the common name, it is not in fact a lily. Gardening enthusiasts and horticulturists have long bred daylily species for their attractive flowers.</p>
+          <button class="hide" onclick="hidePopup('popup18')">Close</button>
+        </div>
+     
+        <p></p>
+    </div>
+</div>
+<link rel="stylesheet" href="C:\Users\thama\OneDrive\Desktop\flower for sita\java.js">
+</body>
+</html>
+</div>
+<footer class="footer">
+  <p >www.flowerforsita.com</p>
+  
+</footer>
+</body>
+
+</html>
